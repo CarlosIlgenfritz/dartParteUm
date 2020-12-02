@@ -19,7 +19,7 @@ class ProdutoService {
   }
 
   alterar(Produto produto, String id) {
-    repository.alterar('Produto', produto, id);
+    repository.alterar('produto', produto, id);
   }
 
   excluir(String id) {
